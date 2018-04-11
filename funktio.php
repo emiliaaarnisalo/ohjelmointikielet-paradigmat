@@ -1,6 +1,6 @@
 <?php
 
-$esimerkki = array(1, "Emilia", 25, "Helsinki", "moi");
+$esimerkki = array(1, "Emilia", 25, "Helsinki", "moi", "taulukko");
 
 function tulostataulukko($taulukko) {
     sort($taulukko);
