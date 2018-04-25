@@ -1,0 +1,14 @@
+<button onclick="toggle()">Piilota</button>
+
+<div class="to-hide">Meitsi menee piiloon</div>
+
+<script>
+function toggle() {
+	const element = document.getElementsByClassName("to-hide")[0]
+
+	if (element.style.visibility === "hidden")
+		element.style.visibility = "visible"
+	else
+		element.style.visibility = "hidden"
+}
+</script>
