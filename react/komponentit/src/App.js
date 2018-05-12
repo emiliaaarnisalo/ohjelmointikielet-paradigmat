@@ -3,7 +3,6 @@ import logo from './logo.svg';
 import './App.css';
 import Moi from './Moi';
 import Ohje from './Ohje';
-import App2 from './App2';
 
 class App extends Component {
   render() {
